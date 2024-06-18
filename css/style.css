@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+/* top part begins here  */
+section{
+    display: flex;
+    background-color: black;
+    margin-top: 0;
+    color: white;
+    height: 30px;
+    justify-content: left;
+    align-items:center ;
+}
+
+#location-email{
+    display: flex;
+    padding: 5px;
+}
+
+#location-email span{
+    padding: 0 5px 0 5px;
+}
+
+#icons span{
+    justify-content: right;
+    padding-left: 670px;
+    margin: 20px;
+}
+#icons a{
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px ;
+    transition: transform 0.4s ease;
+}
+#icons a:hover{
+    transform: rotate(180deg);
+    color: blue;
+
+}
+/* top part ends here  */
+
+/* nav section begins  */
+
+
+/* nav section ends  */
