@@ -41,6 +41,52 @@ section{
 /* top part ends here  */
 
 /* nav section begins  */
+nav{
+    display: flex;
+    padding-top: 20px;
+    background-color: grey;
+    height: 80px;
+    justify-content: space-around;
+
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+}
+#nav-items{
+    justify-items: space-between ;
 
 
+}
+
+nav button{
+    color: red;
+    border-width: 1px ;
+    border-style: solid;
+    border-color: red;
+    background-color: white;
+    height: fit-content;
+}
+nav button:hover{
+    background-color: red;
+    color: white;
+}
+
+#call a{
+    color: black;
+}
+
+#call span{
+    color: red;
+    text-decoration: dashed;
+    text-decoration-line:underline;
+}
 /* nav section ends  */
+
+#hero{
+    background-image: url(../assets/images/hero-img.jpg);
+}
