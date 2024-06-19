@@ -1,9 +1,19 @@
 body{
     margin: 0;
 }
+.baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 /* top part begins here  */
-section{
+#top-part{
     display: flex;
     background-color: black;
     margin-top: 0;
@@ -44,7 +54,7 @@ section{
 nav{
     display: flex;
     padding-top: 20px;
-    background-color: grey;
+    background-color: white;
     height: 80px;
     justify-content: space-around;
 
@@ -87,6 +97,60 @@ nav button:hover{
 }
 /* nav section ends  */
 
-#hero{
+/* #hero{
     background-image: url(../assets/images/hero-img.jpg);
+
+
+} */
+
+/* Hero starts here */
+ #hero img{
+    height: 100vh;
+    width: 100vw;
+
+ }
+
+
+ /* #overlay{
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+} */
+
+.hero-text{
+    position: absolute;
+    top : 100pt ; 
+    /* margin-top: 90pt; */
+    left: 95pt;
+    color: #FFF; 
 }
+.hero-text .baskervville-regular {
+    font-size: 50px;
+}
+ .button_slide {
+    color: #FFF;
+    border: 2px solid red;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Roboto ", sans-serif,monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #d8da80;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #d6a812;
+  }
+  
+  
+  
+/* hero ends here  */
+
+/* Section two starts here  */
+
+/* Section two ends here  */
