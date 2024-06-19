@@ -3,7 +3,7 @@ body{
 }
 .baskervville-regular {
     font-family: "Baskervville", serif;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -152,5 +152,38 @@ nav button:hover{
 /* hero ends here  */
 
 /* Section two starts here  */
+#sec-two {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+
+
+}
+
+#left-sec img{
+    height: 80vh;
+    width: 30vw;
+    border-radius: 100px 0 0 0;
+}
+
+
+#right-sec{
+    width: 500px;
+    height: 550px;
+    background-color: aqua;
+
+
+}
+#right-sec span{
+    font-size: 30px;
+    color: #2D0000;
+}
+#right-sec h3{
+    font-size: 24px;
+}
+#right-sec p{
+    font-size: 18px;
+}
+
 
 /* Section two ends here  */
