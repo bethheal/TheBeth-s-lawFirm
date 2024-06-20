@@ -202,7 +202,43 @@ nav button:hover{
 #practice-area{
     width: 100vw;
     height: 90vh;
+    display: flex;
+    justify-content: center;
+
     background-color: #F8F4F4;
 }
 
+#practice-area h2{
+    font-size: 41px;
+    
+    padding-top: 90px ;
+    /* align-content: center; */
+}
 /* practice area ends here */
+
+#grid-side{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+
+}
+
+#cover-content{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.small-box{
+    width: 300px;
+    height: 240px;
+    border:2px solid rgb(10, 10, 10);
+    border-radius: 5px;
+}
+
+.long-box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 0 100px 0 0;
+}
