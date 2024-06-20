@@ -154,10 +154,8 @@ nav button:hover{
 /* Section two starts here  */
 #sec-two {
     display: flex;
-    padding: 100px;
+    padding: 100px 50px 0 170px;
     justify-content: space-between;
-
-
 }
 
 #left-sec img{
@@ -170,7 +168,6 @@ nav button:hover{
 #right-sec{
     width: 500px;
     height: 550px;
-    background-color: aqua;
 
 
 }
@@ -180,10 +177,24 @@ nav button:hover{
 }
 #right-sec h3{
     font-size: 24px;
+    color: #2D0000;
+    font-weight: lighter;
+
 }
 #right-sec p{
     font-size: 18px;
+    color: #6B5A5A;
 }
 
+#name-position span:first-child{
+    font-size: 20px;
+
+}
+#name-position span:last-child{
+    font-size: 14px;
+    margin-bottom: 50px;
+
+}
 
 /* Section two ends here  */
+
