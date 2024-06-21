@@ -205,8 +205,7 @@ nav button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: #F8F4F4; */
-    background-color: #2D0000;
+    background-color: #F8F4F4;
 }
 
 #practice-area #header-text h2{
@@ -226,7 +225,9 @@ nav button:hover{
   
   .grid-container > div {
     text-align: center;
+    padding-top: 50px;
     gap: 10px;
+    color: #66816a;
     height: 300px;
     width: 376px;
     font-size: 30px;
@@ -250,12 +251,18 @@ nav button:hover{
   }
   
   .grid-container .item3 {
-    background-color: red;
+    color: #F8F4F4;
+    background-color: #B40000;
+    border-radius:0  100px 0 0;
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 700px ;
+    height: 500px ;
     font-size: 30px;
+  }
+
+  .grid-container img{
+    justify-content: center;
   }
   
   .item3 {
