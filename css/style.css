@@ -201,7 +201,7 @@ nav button:hover{
 /* practice area begins here */
 #practice-area{
     width: 100vw;
-    height: 200vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -290,3 +290,29 @@ nav button:hover{
     grid-row: 2; 
   }
 /* practice area ends here */
+
+/* Why Us starts here  */
+
+#why-us{
+  height:70vh;
+  width:auto;
+  align-content: center;
+  text-align: center;
+}
+
+#why-us h2{
+  font-size: 24px;
+  color:#B40000;
+}
+#why-us #first-sec{
+  font-size: 24px;
+  color:#2D0000;
+}
+#why-us #second-sec{
+  font-size: 18px;
+  color: #6b6b6b;;
+}
+
+
+/* wy us ends here  */
+
